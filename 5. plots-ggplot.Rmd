@@ -218,7 +218,7 @@ gg_base +
     aes(size = visitors,
         color = visitors),
     alpha = 0.5
-  )``
+  )
 ```
 
 In the example above, notice that the two arguments that do depend on variables are within aes(), but since alpha = 0.5 doesn’t depend on a variable then it is outside the aes() but still within the geom_point() layer.
@@ -268,7 +268,7 @@ gg_base +
     y = "Annual park visitors",
     title = "Channel Islands NP Visitation",
     subtitle = "(1963 - 2016)"
-  )```
+  )
 ```
 
 Note: If you want to update the formatting of axis values (for example, to convert to comma format instead of scientific format above), you can use the scales package options (see more from the [R Cookbook](http://www.cookbook-r.com/Graphs/Axes_(ggplot2)/)).
